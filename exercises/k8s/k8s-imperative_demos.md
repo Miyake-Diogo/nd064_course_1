@@ -4,7 +4,7 @@ Demos commands for kubernetes imperative methods.
 
 I run this commands in K3D cluster at my local machine.  
 
-# Demo1 Walktrough
+# Demo1 Walkthrough
 First create a cluster (you can use any app, minikube, kind, k3d, etc)
 ```
 k3d cluster create udacity-course 
@@ -78,7 +78,7 @@ After this see if pods are updated with `kubectl get rs`and `kubectl get pods`.
 Change the port forward to 6112:6112 and test in browser.
 
 ---
-# Demo 2 Walktrough
+# Demo 2 Walkthrough
 ```
 kubectl get deploy
 ```
@@ -133,7 +133,7 @@ Retrieve files via HTTP or FTP
 ```
 
 --- 
-# Demo 3 Walktrough
+# Demo 3 Walkthrough
 
 To show configmaps
 ```
