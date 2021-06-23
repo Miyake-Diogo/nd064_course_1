@@ -32,7 +32,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./exercises/python-helloworld/
-          file: ./Dockerfile
+          file: ./exercises/python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
           tags: miyakediogo/python-helloworld:latest
